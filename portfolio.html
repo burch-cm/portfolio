@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio">
+  <meta name="author" content="Vorpal Code :: Christopher Burch">
+  <!-- import google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin|Lora:700" rel="stylesheet"/>
+  <!-- import twitter bootstrap CDN -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+  <!-- include FontAwesome icons -->
+  <script src="https://use.fontawesome.com/ca46d39fe1.js"></script>
+  <!-- include jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <!-- import my CSS -->
+  <link rel="stylesheet" type="text/css" href="portfolio_style.css"/>
+  <!-- import my js -->
+  <script type="text/javascript" src="js/myjs.js"></script>
+  <!-- mobile viewport - disable zoom -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Christopher Burch - Portfolio</title>
+</head>
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mine">
+          <span class="sr-only">Toggle Navigation</span>
+        </button>
+        <a class="navbar-brand" href="#top"><p class="brand"><span class="inverted">K</span>B |</p></a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-mine">
+        <ul class="nav navbar-nav">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#portfolio">Case Studies</a></li>
+          <li><a href="#other-sites">Around The Web</a></li>
+          <li><a href="#contact-info">Get In Touch</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="top-window" id="top">
+      <div class="top-image inner">
+        <h1 class="brand-name">Christopher 'Kitt' Burch</h1>
+        <h4 class="brand-name">[ Building Awesome Stuff ]</h4>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="main-body col-xs-12 col-md-10 col-md-offset-1">
+      <div id="about-me">
+        <h2>About Me</h2>
+        <hr class="symbol"/>
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 col-sm-offset-1">
+            <p class="text">
+              I am the co-founder and current marketing director for <a href="http://www.vetscape.org">Vetscape</a>,
+              a nonprofit which helps veterans find their next mission in life. I moonlight as a data analytics and
+              operations consultant, primarily in the biotech and energy sectors. My ultimate goal is to earn a PhD in
+              organizational studies and continue working as a consultant, possibly in data/analytic product
+              design and development. (And, of course, conduct awesome research.)
+            </p>
+            <p class="text">
+              I have an MBA from Johns Hopkins, my BA was earned while I was in the military, and I produce BS on a
+              daily basis. I like solving interesting problems and building awesome things.
+            </p>
+            <p class="text">
+              Most of my day-to-day work is in <a href="http://www.r-project.org">R</a> and <a
+                href="http://www.python.org">Python</a>, but I'm learning Julia, Javascript, and some Mathematica as
+              well.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <img src="./img/me_bw_center.jpg" id="my-pic"/>
+          </div>
+        </div>
+      </div>
+      <div id="portfolio">
+        <h2>Selected Work</h2>
+        <hr class="symbol"/>
+        <div class="row portfolio-row">
+          <div class="col-xs-12 col-sm-6">
+            <a href="https://cburch.shinyapps.io/WaterMap">
+              <img class="portfolio-img" src="./img/water_data_app-thumb.png" src="an app mapping water data in Africa">
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <h3>Tanzanian Well Data</h3>
+            <span class="text portfolio-text">This is a shiny app which shows the location of wells in Tanzania. The app was developed to help with a <a href="http://www.drivendata.com">DrivenData</a> machine learning competition. Users can visualize the locations of wells by functional status and well funder, and display the results by individual well or grouped by location. Additional features will be added as necessary. The intent is to help show patterns in the data which might lead to accurate prediction of well functional status.
+            </span>
+          </div>
+        </div>
+        <div class="row portfolio-row">
+          <div class="col-xs-12 col-sm-6">
+            <h3>The Logistic Map</h3>
+            <span class="text portfolio-text">The logistic map is a nonlinear difference function which determines the population in a given period based on the population of the previous period. The equation is simple, but the results are complex - at certain parameters. the logistic map demonstrates chaotic behavior. This is a simple look at the logistic function, including the R code necessary to generate a bifurcation chart.</span>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <a href="https://github.com/burch-cm/logisticMap">
+              <img class="portfolio-img" src="./img/bifurcate-thumb.png" alt="bifurcation diagram for the logistic map">
+            </a>
+          </div>
+        </div>
+        <div class="row portfolio-row">
+          <div class="col-xs-12 col-sm-6">
+            <a href="https://github.com/burch-cm/julia-opt">
+              <img class="portfolio-img" src="./img/julia_opt-thumb.png" alt="a discussion of using Julia and R">
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <h3>Optimization in Julia with R</h3>
+            <span class="text portfolio-text">Both the Julia and R languages are used for operations modeling. Minimizing (or maximizing) an operational function with constraints can be accomplished in both languages, but they both have their own benefits. Julia's ability to call R functions directly allows for the best of both worlds. This is a first look at the code to solve a linear programming problem in Julia, using R code.</span>
+          </div>
+        </div>
+        <div class="row portfolio-row">
+          <div class="col-xs-12 col-sm-6">
+            <h3>Coinflip Simulator</h3>
+            <span class="text portfolio-text">This is a simple shiny application which simulates the flipping of a number of coins. The probability of a heads can be selected by the user, so the coin's 'fairness' is not guaranteed. The app tracks the cumulative number of successes and the cumulative sum of the outcomes, assuming a success is +1 and a failure is -1.</span>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <a href="https://cburch.shinyapps.io/coinflip">
+              <img class="portfolio-img" src="./img/coinflip-thumb.png" alt="a coinflip simulator">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="other-sites">
+        <h2>Around the Interwebs</h2>
+        <hr class="symbol"/>
+        <div class="row">
+          <div class="col-xs-6 col-md-3 social">
+            <a src="http://twitter.com/cmburch"><i class="fa fa-twitter-square fa-4x"></i><p class="text">Twitter<p></a>
+          </div>
+          <div class="col-xs-6 col-md-3 social">
+            <a src="https://github.com/burch-cm/"><i class="fa fa-github-square fa-4x"></i><p class="text">GitHub</p></a>
+          </div>
+          <div class="col-xs-6 col-md-3 social">
+            <a src="http://www.apopheniology.com"><i class="fa fa-pencil-square fa-4x"></i><p class="text">Blog</p></a>
+          </div>
+          <div class="col-xs-6 col-md-3 social">
+            <a src="https://www.linkedin.com/in/christophermburch"><i class="fa fa-linkedin-square fa-4x"></i><p class="text">LinkedIn</p></a>
+          </div>
+        </div>
+      </div>
+      <div id="contact-info">
+        <h2>Contact Info</h2>
+        <hr class="symbol"/>
+        <div class="row" id="contact-form">
+          <div class="col-xs-12 col-sm-6">
+            <form action="mailto:notafakename@vetscape.com" method="post" enctype="text/plain">
+              Name:<br/>
+              <input type="text" name="name"><br/>
+              E-mail:<br/>
+              <input type="text" name="mail"><br/>
+              Comment:<br/>
+              <input type="text" name="comment" size="50"><br/><br/>
+              <input type="submit" value="Send">
+              <input type="reset" value="Reset">
+            </form>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <address>
+              <strong>CM Burch</strong><br/>
+              Vetscape<br/>
+              132 Oleander Place<br/>
+              Lahaina, Hawaii 96761
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <footer class="col-xs-12 col-md-10 col-md-offset-1">
+      <p><small>Twas Brillig [ Jaberwocky ] 2016</small></p>
+    </footer>
+  </div>
+
+</div>
+</body>
+</html>
