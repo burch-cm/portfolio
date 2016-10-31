@@ -1,126 +1,186 @@
-body{
+body
+{
+    min-width: 300px;
+
+    text-align: center;
+
+    background: url('./img/jabberwocky.jpg') no-repeat top fixed;
+    background-size: 80% auto;
+}
+#navbar-mine
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+}
+#contact-info
+{
+    text-align: left;
+}
+.inverted
+{
+    display: inline-block;
+
+    transform: scaleX(-1);
+}
+.top-window
+{
+    height: 300px;
+
+    text-align: center;
+
+    background: transparent ;
+}
+.main-body
+{
+    background-color: white;
+}
+.main-body p
+{
+    padding: 10px 0 5px 0;
+
+    text-align: left;
+}
+#about-me p
+{
+    padding: 10px 10px 5px 10px;
+}
+.brand{
+	font-family: 'Lora', serif;
+}
+#hustler{
+	font-weight: bold;
+	font-size: 120%;
 	text-align: center;
-	background: url("./img/jabberwocky.jpg") no-repeat top fixed;
-	background-size: 80% auto;
-	min-width: 300px;
+	padding: 0;
+	margin: 0;
 }
-#navbar-mine{
-	font-family: 'Libre Franklin', sans-serif;
-	font-weight: bold;
-	font-size: 125%;
+hr
+{
+    width: 95%;
+
+    border-top: 3px double #0f0f0f;
 }
-#contact-info{
-	text-align: left;
+.top-image
+{
+    width: 50%;
+    min-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 25px 30px 10px;
+
+    background-color: #0f0f0f;
 }
-#
-.inverted{
-	display: inline-block;
-	transform: scaleX(-1);
+.brand-name
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: normal;
+
+    color: white;
 }
-.top-window{
-	text-align: center;
-	height: 300px;
-	background: transparent ;
+.title
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
 }
-.main-body{
-	background-color: white;
+h2
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+
+    margin: 50px 0 0 0;
 }
-.main-body p{
-	text-align: left;
-	padding: 10px 0 5px 0;
+h3
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: normal;
+
+    text-align: left;
 }
-#about-me p{
-	padding: 10px 10px 5px 10px;
-}
-hr{
-	border-top: 3px double #0f0f0f;
-	width: 95%;
-}
-.top-image{
-	background-color: #0f0f0f;
-	width: 50%;
-	min-width: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px 25px 30px 10px;
-}
-.brand-name{
-	font-family: 'Libre Franklin', sans-serif;
-	font-weight: normal;
-	color: white;
-}
-.title{
-	font-family: 'Libre Franklin', sans-serif;
-	font-weight: bold;
-}
-h2{
-	font-family: 'Libre Franklin', sans-serif;
-	font-weight: bold;
-	margin: 50px 0 0 0;
-}
-h3{
-	font-family: 'Libre Franklin', sans-serif;
-	font-weight: normal;
-	text-align: left;
-}
-.text{
-	font-family: 'Libre Baskerville', serif;
+.text
+{
+    font-family: 'Libre Baskerville', serif;
 }
 
-#top{
-	padding-top: 100px;
+#top
+{
+    padding-top: 100px;
 }
-#my-pic{
-	border-radius: 50%;
-	height: 250px;
-	alignment: center;
-	margin-right: 20px;
+#my-pic
+{
+    height: 250px;
+    margin-right: 20px;
+
+    border-radius: 50%;
+
+    alignment: center;
 }
-.portfolio-row{
-	border: 1px solid black;
-	padding: 5px 0 5px 0;
+.portfolio-row
+{
+    padding: 5px 0 5px 0;
+
+    border: 1px solid black;
 }
-.portfolio-img{
-	width: 300px;
-	height: 300px;
+.portfolio-img
+{
+    width: 300px;
+    height: 300px;
 }
-.portfolio-text{
-	display: block;
-	text-align: left;
-	padding: 0;
+.portfolio-text
+{
+    display: block;
+
+    padding: 0;
+
+    text-align: left;
 }
-.social{
-	padding: 20px;
-	text-align: center;
+.social
+{
+    padding: 20px;
+
+    text-align: center;
 }
-.social p{
-	text-align: center;
+.social p
+{
+    text-align: center;
 }
-.social i{
+
+.row
+{
+    margin-top: 40px;
 }
-.row{
-	margin-top: 40px;
+footer p
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: small;
+
+    text-align: left;
+
+    background-color: #8c8b8b;
 }
-footer p{
-	font-family: 'Libre Franklin', sans-serif;
-	font-size: small;
-	text-align: left;
-	background-color: #8c8b8b;
+hr.symbol
+{
+    padding: 0;
+
+    text-align: center;
+
+    color: #333;
+    border: none;
+    border-top: medium double #333;
 }
-hr.symbol {
-	padding: 0;
-	border: none;
-	border-top: medium double #333;
-	color: #333;
-	text-align: center;
-}
-hr.symbol:after {
-	content: "\f121";
-	font-family: FontAwesome;
-	display: inline-block;
-	position: relative;
-	top: -0.7em;
-	font-size: 1.5em;
-	padding: 0 0.25em;
-	background: white;
+hr.symbol:after
+{
+    font-family: FontAwesome;
+    font-size: 1.5em;
+
+    position: relative;
+    top: -.7em;
+
+    display: inline-block;
+
+    padding: 0 .25em;
+
+    content: '\f121';
+
+    background: white;
 }
