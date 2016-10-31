@@ -7,6 +7,9 @@ body
     background: url('./img/jabberwocky.jpg') no-repeat top fixed;
     background-size: 80% auto;
 }
+#other-sites a:link, a:visited{
+	text-decoration: none;
+}
 #navbar-mine
 {
     font-family: 'Libre Franklin', sans-serif;
